@@ -68,13 +68,28 @@ nav>ul>li>ul.dropdown {
 }
 
 nav>ul>li>ul>li {
-    display: block
+    display: block;
+    font-size: 10px;
+    padding: 5px 5px 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5)
 }
 
 nav>ul>li:hover>ul.dropdown {
     display: block
 }
 
-nav>ul>li:hover {
-    background-color: #d3d3d3;
+nav>ul>li>ul.dropdown>li:hover {
+    border-bottom: 1px solid teal
+}
+
+nav>ul>li>ul.dropdown>li>a:hover {
+    color: aqua
+}
+
+ul.dropdown {
+    transition: all .015s;
+}
+
+.end {
+    border-bottom: 0px
 }
