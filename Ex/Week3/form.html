@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form đăng ký</title>
+		<style>
+			h1 {
+				margin: 0;
+			}
+			input,
+			select {
+				margin-bottom: 10px;
+				border-radius: 10px;
+				border: 1px solid black;
+				text-align: center;
+			}
+			legend,
+			h1 {
+				text-align: center;
+			}
+			div {
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			label {
+				padding-left: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form action="">
+			<fieldset
+				style="
+					border-radius: 20px;
+					border: 1px solid black;
+					width: 350px;
+					display: absolute;
+					margin: auto;
+					padding: 0;
+				"
+			>
+				<legend>Bào Ngư Vi Cá</legend>
+				<h1>Tạo tài khoản mới</h1>
+				<hr />
+				<tr>
+					<td>
+						<label for="Name">Tên</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Tên đầy đủ"
+							required
+						/>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="Your nickname">Tên đăng nhập</label>
+						<input type="text" placeholder="Nickname" required />
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="Email">Email</label>
+						<input
+							type="email"
+							placeholder="abcxyz@gmail.com"
+							required
+						/>
+						<br />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="Phone">Số điện thoại</label>
+						<input
+							type="number"
+							placeholder="0123456789"
+							required
+						/>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="password">Mật khẩu</label>
+						<input
+							type="password"
+							name=""
+							id=""
+							placeholder="Password"
+							required
+						/>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="password">Xác nhận mật khẩu</label>
+						<input
+							type="password"
+							name=""
+							id=""
+							placeholder="Nhập lại mật khẩu"
+							required
+						/>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="Gender">Giới tính</label>
+						<select name="Gender" id="" required>
+							<option value="">Giới tính</option>
+							<option value="Male">Nam</option>
+							<option value="Female">Nữ</option>
+							<option value="LGBT">LGBT</option>
+							<option value="Prefer not to say">
+								Không muốn nói
+							</option>
+						</select>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="">Khu vực</label>
+						<select name="From" id="" style="width: 200px" required>
+							<option value="">Chọn khu vực của bạn</option>
+							<option value="Asia">Châu Á</option>
+							<option value="Europe">Châu Âu</option>
+							<option value="Africa">Châu Phi</option>
+							<option value="Australia">Châu Úc</option>
+							<option value="Antarctica">Châu Nam Cực</option>
+							<option value="North America">Bắc Mỹ</option>
+							<option value="South America">Nam Mỹ</option>
+						</select>
+					</td>
+				</tr>
+				<br />
+				<tr>
+					<td>
+						<label for="check"
+							>Những thông tin trên đã khớp chưa?</label
+						>
+						<input type="radio" name="check" />Yes
+						<input type="radio" name="check" />No
+					</td>
+				</tr>
+				<br />
+				<div>
+					<input
+						type="submit"
+						value="Xác nhận"
+						style="margin-bottom: 0; margin-right: 5px"
+					/>
+					<input
+						type="reset"
+						value="Đặt lại"
+						style="margin-bottom: 0; margin-right: 5px"
+					/>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
