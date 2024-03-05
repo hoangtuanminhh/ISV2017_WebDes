@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration</title>
+		<style>
+			p {
+				font-weight: bold;
+				text-transform: uppercase;
+				color: #800000;
+				font-size: 17px;
+				margin-left: 30px;
+				margin-bottom: 15px;
+			}
+			* {
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+			hr {
+				margin: 10px 0 10px 5px;
+				width: 700px;
+			}
+			td,
+			li,
+			label {
+				font-size: 12px;
+				color: #4da0db;
+				text-transform: capitalize;
+			}
+			ul {
+				list-style: none;
+			}
+		</style>
+	</head>
+	<body>
+		<p>registration</p>
+		<hr />
+		<form>
+			<table width="500">
+				<tr>
+					<td width="100">username:</td>
+					<td><input type="text" name="username" required /></td>
+				</tr>
+				<tr>
+					<td>password:</td>
+					<td><input type="text" name="password" required /></td>
+				</tr>
+				<tr>
+					<td>re-type password:</td>
+					<td>
+						<input type="text" name="confirm-pass" required />
+					</td>
+				</tr>
+			</table>
+			<hr />
+			<!--  -->
+			<hr />
+			<table>
+				<tr>
+					<td width="100">first name:</td>
+					<td>
+						<input
+							type="text"
+							name="fname"
+							size="10"
+							required
+							style="margin-right: 15px"
+						/>last name:
+						<input type="text" name="lname" size="10" required />
+					</td>
+				</tr>
+			</table>
+			<hr />
+			<label
+				for="interests"
+				style="text-transform: none; margin-left: 5px"
+				>Interests (optional):</label
+			>
+			<table style="margin-top: 0">
+				<tr>
+					<td width="58"></td>
+					<td>
+						<ul>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>entertainment
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>home & Family
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>health
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>music
+							</li>
+						</ul>
+					</td>
+					<td>
+						<ul>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>business
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>computers & technology
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>personal finance
+							</li>
+							<li>
+								<input
+									type="checkbox"
+									style="margin-right: 10px"
+									name="interests"
+								/>small business
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<hr />
+			<div></div>
+		</form>
+	</body>
+</html>
