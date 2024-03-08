@@ -1,0 +1,38 @@
+p.custom {
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+}
+
+p {
+    background-color: yellow;
+    font-family: "Comic Sans MS", Comic, sans-serif;
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+.box {
+    width: 500px;
+    margin: auto;
+}
+
+.color {
+    color: red;
+}
+
+.third {
+    background-color: black;
+    font-size: 33px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.w1 {
+    width: 300px;
+}
+
+.w2 {
+    width: 420px;
+}
